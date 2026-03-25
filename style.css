@@ -1,0 +1,27 @@
+
+/*link para fonte externa*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+/*arquivo root = resetar elementos da página html*/
+:root{
+    margin: 0;
+    padding: 0;
+    /*elemento garante que o elemento padding
+     não aumente o tamanho total do elemento*/
+    box-sizing: border-box;
+}
+
+.main-header{
+    background-image: url("https://conteudo.imguol.com.br/c/entretenimento/a7/2017/11/17/beterraba-suco-crua-1510937746041_v2_300x225.jpg.webp");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 5px 6px 6px 12px rgba(171, 3, 183, 0.6);
+}
+
+.main-header h1{
+    color: #616;
+    
+}
